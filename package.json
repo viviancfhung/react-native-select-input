@@ -7,26 +7,26 @@
     "email": "lucas.bento@tele2.com",
     "url": "https://github.com/lucasbento"
   },
-  "bugs": "https://github.com/Tele2-NL/react-native-select-input/issues",
+  "bugs": "https://github.com/viviancfhung/react-native-select-input/issues",
   "devDependencies": {
-    "babel-eslint": "^8.2.2",
-    "babel-preset-react-native": "^4.0.0",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.2.2",
-    "eslint": "^4.11.0",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-react-native": "^4.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-react-native": "^3.1.0",
-    "jest": "^21.2.1",
-    "prop-types": "~15.6.0",
+    "jest": "^26.0.1",
+    "prop-types": "^15.6.2",
     "react": "16.0.0",
-    "react-dom": "16.0.0",
-    "react-native": "~0.50.3"
+    "react-dom": "^16.13.1",
+    "react-native": "^0.62.2"
   },
-  "homepage": "https://github.com/Tele2-NL/react-native-select-input#readme",
+  "homepage": "https://github.com/viviancfhung/react-native-select-input#readme",
   "jest": {
     "preset": "react-native",
     "setupFiles": [
@@ -52,11 +52,12 @@
   "peerDependencies": {
     "prop-types": "*",
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "@react-native-community/picker": "^1.6.5"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/Tele2-NL/react-native-select-input"
+    "url": "http://github.com/viviancfhung/react-native-select-input"
   },
   "scripts": {
     "ci": "npm run lint && npm run test -- --runInBand",

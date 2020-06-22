@@ -4,10 +4,10 @@ import {
   Modal,
   TouchableWithoutFeedback,
   View,
-  Picker as RNPicker,
   Platform,
   StyleSheet,
 } from 'react-native';
+import {Picker as RNPicker} from '@react-native-community/picker';
 import SlideUpAnimation from './SlideUpAnimation';
 import PickerHeader from './PickerHeader';
 
